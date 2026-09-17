@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char password[20];
+    
+    printf("Enter password: ");
+    scanf("%s", password);
+    
+    if (strcmp(password, "secret123") == 0) {
+        printf("Correct!\n");
+    } else {
+        printf("Wrong!\n");
+    }
+    
+    return 0;
+}
